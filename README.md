@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="docs/media/ace-learning-festival-16x9.mp4"><img src="docs/media/ace-demo.gif" alt="Opus Promo Director로 만든 제2회 ACE 러닝 페스티벌 홍보 영상 첫 6초" width="720"></a>
+  <a href="https://arthong1.github.io/Opus-promo-Director/"><img src="docs/media/ace-demo.gif" alt="Opus Promo Director로 만든 제2회 ACE 러닝 페스티벌 홍보 영상 첫 6초" width="720"></a>
 </p>
 
 <p align="center">
-  <a href="docs/media/ace-learning-festival-16x9.mp4">전체 영상 16:9 (22초)</a> ·
-  <a href="docs/media/ace-learning-festival-9x16.mp4">릴스·쇼츠 9:16</a>
+  <a href="https://arthong1.github.io/Opus-promo-Director/">▶ 소리 켜고 전체 영상 보기 (22초)</a> ·
+  <a href="https://arthong1.github.io/Opus-promo-Director/#vertical">릴스·쇼츠 9:16</a>
 </p>
 
 # Opus Promo Director
@@ -98,4 +98,3 @@ skills/opus-promo-director/
 ## 라이선스
 
 스킬과 코드는 [MIT](LICENSE)예요. `docs/media/`의 데모 영상과 이미지는 ACE 연구회 소유라 MIT에 포함되지 않아요. 허락 없이 다시 쓰거나 고칠 수 없어요.
-
