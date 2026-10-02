@@ -1,17 +1,16 @@
 <p align="center">
-  <a href="https://arthong1.github.io/Opus-promo-Director/"><img src="docs/media/ace-demo.gif" alt="Opus Promo Director로 만든 제2회 ACE 러닝 페스티벌 홍보 영상 첫 6초" width="720"></a>
+  <a href="https://arthong1.github.io/Opus-promo-Director/"><img src="docs/media/vibe-demo.gif" alt="Opus Promo Director로 제작한 바이브 코딩 & 도서 홍보 쇼츠 미리보기" width="360" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);"></a>
 </p>
 
 <p align="center">
-  <a href="https://arthong1.github.io/Opus-promo-Director/">▶ 소리 켜고 전체 영상 보기 (22초)</a> ·
-  <a href="https://arthong1.github.io/Opus-promo-Director/#vertical">릴스·쇼츠 9:16</a>
+  <a href="https://arthong1.github.io/Opus-promo-Director/"><strong>▶ 소리 켜고 전체 쇼츠 영상 보기 (34초)</strong></a>
 </p>
 
 # Opus Promo Director
 
 AI 코딩 에이전트가 모션 스튜디오처럼 일하게 만드는 영상 감독 스킬이에요. 서비스, 앱, 책, 제품, 행사의 10~60초 홍보 영상을 사용자와 함께 룩부터 고르고, 음악 박자에 맞춘 모션그래픽으로 끝까지 만들어요. 만든 뒤에는 스스로 비평하고 9:16·16:9·4:5로 납품해요.
 
-위 영상은 ACE 연구회의 제2회 ACE 러닝 페스티벌(2026.11.7) 홍보 영상이에요. 연구회가 준 포스터 한 장에서 출발해 이 스킬의 제작 순서대로 만들었어요.
+위 영상은 바이브 코딩 팁과 도서 『바로 배워서 바로 써먹는 AI 에이전트』를 함께 소개하는 9:16 세로형 홍보 쇼츠 영상이에요. 시선을 끄는 빠른 템포의 편집과 타이포그래피, 음악 비트에 맞춘 모션그래픽으로 제작되었어요.
 
 > English summary: an agent skill that directs short promo videos. It pins down the look with the user through style frames, builds beat-synced Remotion motion graphics with AI-generated assets, reviews its own renders against the chosen reference, and delivers checked 9:16, 16:9 and 4:5 files. Instructions are in Korean.
 
@@ -97,4 +96,4 @@ skills/opus-promo-director/
 
 ## 라이선스
 
-스킬과 코드는 [MIT](LICENSE)예요. `docs/media/`의 데모 영상과 이미지는 ACE 연구회 소유라 MIT에 포함되지 않아요. 허락 없이 다시 쓰거나 고칠 수 없어요.
+스킬과 코드는 [MIT](LICENSE)예요. `docs/media/`의 데모 영상과 이미지 저작물은 MIT 라이선스에 포함되지 않으며, 허락 없이 무단으로 사용하거나 배포할 수 없어요.

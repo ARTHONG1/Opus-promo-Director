@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>제2회 ACE 러닝 페스티벌 홍보 영상 · Opus Promo Director 데모</title>
-  <meta name="description" content="Opus Promo Director 스킬로 만든 제2회 ACE 러닝 페스티벌 홍보 영상이에요. 22초, 16:9와 9:16.">
+  <title>바이브 코딩 & AI 에이전트 도서 홍보 쇼츠 · Opus Promo Director 데모</title>
+  <meta name="description" content="Opus Promo Director 스킬로 제작한 34초 세로형 홍보 쇼츠 영상이에요.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="제2회 ACE 러닝 페스티벌 홍보 영상 · Opus Promo Director 데모">
-  <meta property="og:description" content="포스터 한 장에서 출발해 음악 박자에 맞춰 만든 22초 홍보 영상">
+  <meta property="og:title" content="바이브 코딩 & AI 에이전트 도서 홍보 쇼츠 · Opus Promo Director 데모">
+  <meta property="og:description" content="비트에 맞춘 빠른 템포의 모션그래픽 34초 세로형 쇼츠 홍보 영상">
   <meta property="og:url" content="https://arthong1.github.io/Opus-promo-Director/">
-  <meta property="og:image" content="https://arthong1.github.io/Opus-promo-Director/media/ace-16x9-cover.jpg">
+  <meta property="og:image" content="https://arthong1.github.io/Opus-promo-Director/media/vibe-cover.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -35,34 +35,32 @@
       word-break: keep-all;
       overflow-wrap: anywhere;
     }
-    .wrap { max-width: 1200px; margin: 0 auto; padding: 56px 24px 64px; }
-    .eyebrow { margin: 0 0 12px; color: var(--lime); font-size: 15px; font-weight: 700; }
-    h1 { margin: 0; font-size: clamp(28px, 4.4vw, 50px); line-height: 1.18; font-weight: 800; letter-spacing: -0.02em; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 56px 24px 64px; }
+    .eyebrow { margin: 0 0 12px; color: var(--lime); font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    h1 { margin: 0; font-size: clamp(28px, 4.4vw, 44px); line-height: 1.2; font-weight: 800; letter-spacing: -0.02em; }
     .lede { margin: 18px 0 0; max-width: 44em; color: var(--muted); font-size: 17px; }
     .lede-en { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
-    /* 256:81 columns give the 16:9 and 9:16 players the same height. */
-    .players { display: grid; grid-template-columns: 256fr 81fr; gap: 20px; align-items: start; margin-top: 40px; }
-    figure { margin: 0; }
+    .player-container { display: flex; justify-content: center; margin-top: 40px; }
+    figure { margin: 0; width: 100%; max-width: 420px; }
     video {
       display: block;
       width: 100%;
       height: auto;
-      border-radius: 14px;
+      border-radius: 20px;
       background: #000;
-      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.06);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.08);
     }
-    figcaption { margin-top: 10px; color: var(--muted); font-size: 14px; }
-    .specs { margin: 28px 0 0; color: var(--muted); font-size: 14px; }
-    details { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+    figcaption { margin-top: 14px; color: var(--muted); font-size: 14px; text-align: center; }
+    .specs { margin: 24px 0 0; color: var(--muted); font-size: 14px; text-align: center; }
+    details { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
     summary { cursor: pointer; font-weight: 700; }
     details ol { margin: 14px 0 0; padding-left: 1.4em; color: var(--muted); }
-    details ul { margin: 6px 0 0; padding-left: 1.2em; }
-    details li + li { margin-top: 6px; }
+    details li + li { margin-top: 8px; }
     details strong { color: var(--text); }
-    .cta { margin: 36px 0 0; }
+    .cta { margin: 36px 0 0; text-align: center; }
     .button {
       display: inline-block;
-      padding: 12px 22px;
+      padding: 12px 24px;
       border-radius: 999px;
       background: var(--lime);
       color: #11150b;
@@ -76,8 +74,7 @@
     footer p { margin: 0; }
     @media (max-width: 760px) {
       .wrap { padding: 36px 18px 48px; }
-      .players { grid-template-columns: 1fr; gap: 28px; }
-      .vertical { justify-self: center; width: 100%; max-width: 360px; }
+      figure { max-width: 320px; }
     }
   </style>
 </head>
@@ -85,54 +82,33 @@
   <div class="wrap">
     <header>
       <p class="eyebrow">Opus Promo Director 데모</p>
-      <h1>제2회 ACE 러닝 페스티벌 홍보 영상</h1>
-      <p class="lede">ACE 연구회가 준 포스터 한 장에서 출발해 박자 샷리스트를 짜고, 리뷰와 수정을 세 번 거쳐 만든 22초 영상이에요. 소리를 켜면 컷이 박자에 맞춰 넘어가는 걸 볼 수 있어요.</p>
-      <p class="lede-en" lang="en">Demo output of the Opus Promo Director agent skill: a 22-second, beat-synced promo built from one event poster. Turn the sound on.</p>
+      <h1>바이브 코딩 & AI 에이전트 도서 홍보 쇼츠</h1>
+      <p class="lede">빠른 템포의 편집과 모션 그래픽, 비트에 맞춘 효과음으로 제작된 34초 세로형(9:16) 홍보 쇼츠 영상이에요. 소리를 켜고 감상해 보세요.</p>
+      <p class="lede-en" lang="en">Demo output of Opus Promo Director: a 34-second vertical (9:16) shorts promo with fast-paced beat sync and motion typography.</p>
     </header>
     <main>
-      <div class="players">
-        <figure class="wide" id="wide">
-          <video controls playsinline preload="metadata" width="1920" height="1080" poster="media/ace-16x9-cover.jpg" aria-describedby="onscreen">
-            <source src="media/ace-learning-festival-16x9.mp4" type="video/mp4">
-            <p>이 브라우저에서는 영상을 재생할 수 없어요. <a href="media/ace-learning-festival-16x9.mp4">16:9 영상 파일</a>을 내려받아 보세요.</p>
+      <div class="player-container">
+        <figure id="vertical">
+          <video controls playsinline preload="metadata" width="1080" height="1920" poster="media/vibe-cover.jpg" aria-describedby="onscreen">
+            <source src="media/vibe-coding-shorts-9x16-book.mp4" type="video/mp4">
+            <p>이 브라우저에서는 영상을 재생할 수 없어요. <a href="media/vibe-coding-shorts-9x16-book.mp4">9:16 영상 파일</a>을 내려받아 보세요.</p>
           </video>
-          <figcaption>16:9 · 유튜브·발표용</figcaption>
-        </figure>
-        <figure class="vertical" id="vertical">
-          <video controls playsinline preload="metadata" width="1080" height="1920" poster="media/ace-9x16-cover.jpg" aria-describedby="onscreen">
-            <source src="media/ace-learning-festival-9x16.mp4" type="video/mp4">
-            <p>이 브라우저에서는 영상을 재생할 수 없어요. <a href="media/ace-learning-festival-9x16.mp4">9:16 영상 파일</a>을 내려받아 보세요.</p>
-          </video>
-          <figcaption>9:16 · 릴스·쇼츠용</figcaption>
+          <figcaption>9:16 · 유튜브 쇼츠 / 인스타 릴스용</figcaption>
         </figure>
       </div>
-      <p class="specs">22.4초 · 30fps · 150 BPM · Remotion으로 렌더. 세로판은 세로 화면에 맞춰 레이아웃을 따로 짰어요.</p>
+      <p class="specs">34.6초 · 30fps · 1080×1920 (9:16) · Remotion 모션그래픽 렌더</p>
       <details>
-        <summary>영상에 나오는 글자</summary>
+        <summary>영상 주요 내용</summary>
         <ol id="onscreen">
-          <li><strong>여는 말</strong> 요즘 AI 교육이 궁금한 선생님들 모여라!</li>
-          <li><strong>제목</strong> AI X EDU LEARNING FESTIVAL. 제 2회 ACE 러닝 페스티벌에 여러분을 초대합니다!</li>
-          <li><strong>일시</strong> 11.7 토요일, 13:30 ~ 17:30</li>
-          <li><strong>장소</strong> 여의도 동아출판 본사, 9호선 국회의사당역 3번 출구</li>
-          <li><strong>실전 수업 사례 4가지</strong>
-            <ul>
-              <li>SESSION 1-1 (1부 선택) AI X 데이터 분석: Orange3와 Jamovi를 활용한 데이터 분석 수업 사례</li>
-              <li>SESSION 1-2 (1부 선택) AI X 사회정서학습: 클래스파이와 생성형 AI로 교실에서 바로 쓰는 사회정서학습</li>
-              <li>SESSION 2-1 (2부 선택) AI X 디지털 리터러시: 디지털 리터러시의 이해와 6학년 사회 교과 적용</li>
-              <li>SESSION 2-2 (2부 선택) AI X 바이브코딩: 바이브코딩과 함께 하는 질문 중심 수업</li>
-            </ul>
-          </li>
-          <li><strong>참가비</strong> 1만원 (노쇼 방지용)</li>
-          <li><strong>참가자 전원 증정</strong> 카페 상품권 1만원 상당</li>
-          <li><strong>추가 혜택</strong> 에듀테크 1개월 체험권, 다과, 럭키드로우 추첨권</li>
-          <li><strong>참가 신청</strong> 10.6(화) ~ 10.23(금), 선착순 마감!</li>
-          <li><strong>마무리</strong> 제2회 ACE 러닝 페스티벌. 11.7(토) 13:30 · 여의도 동아출판 본사. 10.23(금)까지 구글폼으로 신청</li>
+          <li><strong>훅</strong> 바이브 코딩 시작할 때 한글은 왜 깨져? (인코딩 문제 해결 팁)</li>
+          <li><strong>핵심 팁</strong> 터미널 인코딩 UTF-8 설정, AI가 코드를 망가뜨려도 Alt + Z (타임머신 기능)</li>
+          <li><strong>도서 안내</strong> 이 스킬을 만든 선생님이 함께 쓴 책 — 『바로 배워서 바로 써먹는 AI 에이전트』 (28가지 교실 자동화 실전 예제)</li>
         </ol>
       </details>
       <p class="cta"><a class="button" href="https://github.com/ARTHONG1/Opus-promo-Director">GitHub에서 스킬 보기</a></p>
     </main>
     <footer>
-      <p>영상과 이미지, 그 안의 포스터·로고·캐릭터는 ACE 연구회 소유예요. 스킬 코드의 MIT 라이선스에 포함되지 않아서 허락 없이 다시 쓰거나 고칠 수 없어요.</p>
+      <p>영상 내 저작물 및 도서 이미지는 해당 권리자 소유이며, 스킬 코드의 MIT 라이선스에 포함되지 않습니다.</p>
     </footer>
   </div>
 </body>
